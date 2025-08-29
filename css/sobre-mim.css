@@ -1,0 +1,19 @@
+#sobre-mim {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+}
+
+.sobre-mim-titulo {
+  padding: 120px 80px;
+  background: var(--cor-11);
+  max-width: 5ch;
+}
+
+.sobre-mim-texto {
+  padding: 120px 80px;
+}
+
+.sobre-mim-texto h3 {
+  margin-bottom: 20px;
+}

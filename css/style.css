@@ -1,0 +1,12 @@
+@import "/css/global.css";
+
+/* utilitarios */
+@import "/css/utilitarios/fonte.css";
+@import "/css/utilitarios/cores.css";
+@import "/css/utilitarios/componentes.css";
+
+/* header */
+@import "/css/header.css";
+
+@import "/css/introducao.css";
+@import "/css/sobre-mim.css";

@@ -1,0 +1,24 @@
+.introducao-bg {
+  background: url(/img/fotos/bg-introducao.jpg) no-repeat center center;
+  height: 924px;
+  background-size: cover;
+}
+
+.introducao {
+  height: 924px;
+  align-content: center;
+  text-align: center;
+  color: var(--cor-1);
+}
+
+.introducao p {
+  margin-top: 20px;
+}
+
+.introducao ul {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
