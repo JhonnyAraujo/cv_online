@@ -1,0 +1,33 @@
+#formacao {
+  display: flex;
+  /* align-items: center; */
+  flex-direction: row-reverse;
+}
+
+.formacao-titulo {
+  padding: 160px 100px;
+  background: var(--cor-11);
+  overflow-wrap: break-word;
+  max-width: 5ch;
+}
+
+.formacao-conteudo {
+  width: 100%;
+  padding: 80px;
+  display: grid;
+  gap: 60px;
+}
+
+.formacao-item {
+  display: grid;
+  gap: 20px;
+  background: var(--cor-0);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+}
+
+.detalhe {
+  display: flex;
+  justify-content: space-between;
+}

@@ -13,6 +13,7 @@
 .projetos h2 {
   grid-column: 1/-1;
   text-align: center;
+  margin-bottom: 60px;
 }
 
 .projeto-item {
