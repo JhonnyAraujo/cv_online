@@ -4,10 +4,10 @@
 @import "/css/utilitarios/tipografia.css";
 @import "/css/utilitarios/cores.css";
 @import "/css/utilitarios/componentes.css";
+@import "/css/utilitarios/animacao.css";
 
-/* header */
+/* home */
 @import "/css/header.css";
-
 @import "/css/introducao.css";
 @import "/css/sobre-mim.css";
 @import "/css/projetos.css";

@@ -1,8 +1,19 @@
+.header-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0);
+  z-index: 2;
+}
+
 .header {
+  max-width: 1200px;
+  margin: 0 auto;
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  box-sizing: border-box;
 }
 
 .header-menu {
@@ -14,4 +25,5 @@
 .header a {
   display: inline-block;
   padding: 16px 0;
+  color: var(--cor-7);
 }
