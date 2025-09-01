@@ -1,18 +1,18 @@
 /* links para linkar uma vez so no html, facilitando assim a organização. */
-@import "/css/global.css";
+@import "./global.css";
 
 /* utilitarios */
-@import "/css/utilitarios/tipografia.css";
-@import "/css/utilitarios/cores.css";
-@import "/css/utilitarios/componentes.css";
-@import "/css/utilitarios/animacao.css";
+@import "./utilitarios/tipografia.css";
+@import "./utilitarios/cores.css";
+@import "./utilitarios/componentes.css";
+@import "./utilitarios/animacao.css";
 
 /* home */
-@import "/css/header.css";
-@import "/css/introducao.css";
-@import "/css/sobre-mim.css";
-@import "/css/projetos.css";
-@import "/css/formacao.css";
-@import "/css/idiomas.css";
-@import "/css/contato.css";
-@import "/css/footer.css";
+@import "./header.css";
+@import "./introducao.css";
+@import "./sobre-mim.css";
+@import "./projetos.css";
+@import "./formacao.css";
+@import "./idiomas.css";
+@import "./contato.css";
+@import "./footer.css";
