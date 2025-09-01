@@ -1,36 +1,43 @@
+/* Fundo da seção projetos */
 .projetos-bg {
   background: var(--cor-11);
   padding-top: 120px;
   padding-bottom: 120px;
 }
 
+/* Estrutura */
 .projetos {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
 }
 
+/* Título */
 .projetos h2 {
   grid-column: 1/-1;
   text-align: center;
   margin-bottom: 60px;
 }
 
+/* fundo do componente que contém o projeto */
 .projeto-item {
   background: var(--cor-1);
   border-radius: 0 0 5px 5px;
 }
 
+/* Afastar um projeto do outro */
 .projeto-item div {
   padding: 20px;
 }
 
+/* Estruturação e organizaçõ das habilidades em cada projeto com flex */
 .projetos-habilidades {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
 }
 
+/* A estilização de cada habilidade */
 .projetos-habilidades li {
   padding: 12px;
   background: var(--cor-0);

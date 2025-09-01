@@ -1,19 +1,23 @@
+/* Estrutura da seção sobre-mim */
 #sobre-mim {
   display: grid;
   grid-template-columns: auto 1fr;
   align-items: center;
 }
 
+/* Título da seção */
 .sobre-mim-titulo {
   padding: 120px 80px;
   background: var(--cor-11);
   max-width: 5ch;
 }
 
+/* Texto contando sobre mim */
 .sobre-mim-texto {
   padding: 120px 80px;
 }
 
+/* Espaçamento do meu nome para o texto  */
 .sobre-mim-texto h3 {
   margin-bottom: 20px;
 }

@@ -1,3 +1,4 @@
+/* Resetando vairos padrões de tags */
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -29,6 +30,7 @@ img {
   height: auto;
 }
 
+/* Scroll suave */
 html {
   scroll-behavior: smooth;
 }

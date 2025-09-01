@@ -1,8 +1,10 @@
+/* Fundo da seção idiomas */
 .idiomas {
   padding-top: 120px;
   padding-bottom: 120px;
 }
 
+/* Centralização do título */
 .idiomas-titulo {
   text-align: center;
   margin-bottom: 80px;

@@ -1,19 +1,23 @@
+/* Fundo da seção contato */
 .contato-bg {
   background: var(--cor-11);
   padding-top: 120px;
   padding-bottom: 120px;
 }
 
+/* Aqui eu divido a seção 3 e 9 colunas */
 .contato {
   display: grid;
   grid-template-columns: 3fr 9fr;
 }
 
+/* Ajuda eu posicionar o contato-informação relativo a ele. */
 .contato-estrutura {
   position: relative;
   margin-right: 60px;
 }
 
+/* Estrutura do contato-informação */
 .contato-informacao {
   background: var(--cor-2);
   padding: 40px 20px;
@@ -24,11 +28,13 @@
   z-index: 1;
 }
 
+/* titulo da seção contato */
 .contato-informacao h2 {
   text-align: center;
   margin-bottom: 60px;
 }
 
+/* Organização das informações */
 .contato-item-grid {
   display: grid;
   grid-template-columns: auto 1fr;
@@ -36,6 +42,7 @@
   margin-bottom: 40px;
 }
 
+/* Redes sociais */
 .contato-informacao ul {
   display: flex;
   justify-content: center;
@@ -43,6 +50,7 @@
   margin-bottom: 40px;
 }
 
+/* Estrutura do formulario */
 .contato-formulario {
   display: grid;
   grid-template-columns: 1fr;
@@ -52,11 +60,13 @@
   border-radius: 5px;
 }
 
+/* Estilização das label */
 .contato-formulario label {
   display: block;
   margin-bottom: 4px;
 }
 
+/* Estilização dos inputs de texto, email e textarea  */
 .contato-formulario input[type="text"],
 .contato-formulario input[type="email"],
 .contato-formulario textarea {
@@ -69,10 +79,12 @@
   box-sizing: border-box;
 }
 
+/* Deixar em uma altura desejada */
 .contato-formulario textarea {
   height: 150px;
 }
 
+/* :focus dos inputs da cor caracterizada do site */
 .contato-formulario input[type="text"]:focus,
 .contato-formulario input[type="email"]:focus,
 .contato-formulario textarea:focus {
@@ -82,6 +94,7 @@
   box-shadow: 0 0 0 2px rgb(97, 210, 255);
 }
 
+/* Organização do  botão enviar mensagem */
 .contato-formulario button {
   margin-top: 20px;
   justify-self: start;

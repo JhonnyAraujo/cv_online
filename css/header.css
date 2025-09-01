@@ -1,3 +1,4 @@
+/* Fundo do header e deixando fixo para acompanhar o scroll */
 .header-bg {
   position: fixed;
   top: 0;
@@ -7,6 +8,7 @@
   z-index: 2;
 }
 
+/* Estruturando o header */
 .header {
   max-width: 1200px;
   margin: 0 auto;
@@ -16,12 +18,14 @@
   box-sizing: border-box;
 }
 
+/* Estruturando para os links */
 .header-menu {
   display: flex;
   flex-wrap: wrap;
   gap: 40px;
 }
 
+/* Links do menu */
 .header a {
   display: inline-block;
   padding: 16px 0;

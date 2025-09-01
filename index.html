@@ -4,25 +4,32 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Descrição do que é a página -->
   <meta name="description" content="Curriculo em formato de Web site de Jhoony Araújo Santana.">
 
+  <!-- Título da página -->
   <title>CV</title>
 
+  <!-- Favicon da página -->
   <link rel="icon" href="./favicon.svg?v=2" type="image/svg+xml">
 
+  <!-- Link dos estilo do CSS -->
   <link rel="stylesheet" href="/css/style.css">
 
+  <!-- fonts ultizadas no site links externos do google -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap" rel="stylesheet">
 
 </head>
 
+
 <body>
+  <!-- Cabeçalho da página onde fica a logo e os links de navegação -->
   <header class="header-bg">
-    <div class="header container">
+    <div class="header">
       <a href="./">
-        <img src="./img/jhonny.svg" alt="Jhonny">
+        <img src="./img/jhonny.svg" width="221" height="58" alt="Logo">
       </a>
       <nav aria-label="primaria">
         <ul class="header-menu font-1-s">
@@ -35,6 +42,7 @@
     </div>
   </header>
 
+  <!-- Introdução onde fica título principal imagem e os links para redes sociais -->
   <main class="introducao-bg">
     <div class="introducao  container">
       <h1 class="font-1-x-b">Oi, eu sou Jhonny</h1>
@@ -42,22 +50,24 @@
       <ul>
         <li>
           <a href="https://www.instagram.com/jhonny.araujo65/">
-            <img src="./img/redes/instagram.svg" alt="Instagram">
+            <img src="./img/redes/instagram.svg" width="32" height="32" alt="Instagram">
           </a>
         </li>
         <li>
           <a href="https://linkedin.com/in/jhonny-araújo">
-            <img src="./img/redes/linkedin.svg" alt="Linkedin">
+            <img src="./img/redes/linkedin.svg" width="32" height="32" alt="Linkedin">
           </a>
         </li>
         <li>
           <a href="https://github.com/JhonnyAraujo">
-            <img src="./img/redes/github.svg" alt="Github">
+            <img src="./img/redes/github.svg" width="32" height="32" alt="Github">
           </a>
         </li>
       </ul>
     </div>
   </main>
+
+  <!-- Aqui coloqueei em um estrutura e design com grid falando sobre mim -->
   <section id="sobre-mim">
     <h2 class="sobre-mim-titulo font-1-x-b cor-1">Sobre mim</h2>
 
@@ -67,11 +77,13 @@
       <p class="font-2-l cor-10">Sou apaixonado por programação e tecnologia sempre com a curiosidade de aprender mais e saber os mínimos porquês. Focado atualmente no <strong>Front End</strong> e suas tecnologias estou em constante evolução sempre seguindo <strong>boas práticas</strong>, <strong>metodologias ágeis</strong>, <strong>acessibilidade</strong>, <strong>SEO</strong>, <strong>responsividade</strong> e trabalhando harmonicamente para ter uma evolução em equipe com que a empresa exigirá.</p>
     </div>
   </section>
+
+  <!-- Aqui fica os meus preojetos mais recentes e mais relevantes com a imagem principal uma breve descrição e habilidades envolvidas para contrução de tal. -->
   <section id="projetos" class="projetos-bg">
     <div class="projetos container">
       <h2 class="font-1-x-b cor-1">Projeto</h2>
       <div class="projeto-item">
-        <img src=" ./img/fotos/bikcraft-preview.jpg" alt="Projeto Bikcraft">
+        <img src=" ./img/fotos/bikcraft-preview.jpg" width="1120" height="624" alt="Projeto Bikcraft">
         <div>
           <h3 class="font-1-m-b cor-11">Bikcraft</h3>
           <p class="font-2-l cor-10">Bikcraft foi um projeto desenvolvido com a Origamid sobre uma empresa e-commerce nichada com vendas de bicicletas elétricas junto com serviços de seguro.</p>
@@ -88,7 +100,7 @@
       </div>
 
       <div class="projeto-item">
-        <img src="./img/fotos/cv-preview.jpg" alt="Projeto Bikcraft">
+        <img src="./img/fotos/cv-preview.jpg" width="1120" height="624" alt="Projeto Bikcraft">
         <div>
           <h3 class="font-1-m-b cor-11">CV Online</h3>
           <p class="font-2-l cor-10">O projeto CV Online foi um trabalho solicitado pela disciplina <strong>Aplicação Web e Móveis</strong> com intuito de ser aplicado os conceitos abordados em aula.</p>
@@ -102,6 +114,8 @@
       </div>
     </div>
   </section>
+
+  <!-- Minhas formações com o mesma estrutura e design da seção sobre mim só que está invertido as ordens via CSS -->
   <section id="formacao">
     <h2 class="formacao-titulo font-1-x-b cor-1">Formação</h2>
     <div class="formacao-conteudo">
@@ -119,12 +133,13 @@
     </div>
   </section>
 
+  <!-- Seção de idomas -->
   <section class="idiomas container">
     <h2 class="idiomas-titulo font-1-x-b cor-11">Idiomas</h2>
     <h3 class="font-1-m-b cor-11">Inglês <span class="font-2-l cor-10">/ Básico ao Intermediário</span></h3>
-
   </section>
 
+  <!-- Seção de contato minhas informações e um formulario -->
   <section id="contato" class="contato-bg">
     <div class="contato  container">
 
@@ -136,31 +151,31 @@
         <div class="contato-informacao">
           <h2 class="font-1-l-b cor-11">Contato</h2>
           <div class="contato-item-grid">
-            <img src="./img/redes/geo-alt-fill.svg" alt="Localização">
+            <img src="./img/redes/geo-alt-fill.svg" width="32" height="32" alt="Localização">
             <p class="font-2-l cor-11">Campo Alegre - Al</p>
           </div>
           <div class="contato-item-grid">
-            <img src="./img/redes/envelope-fill.svg" alt="Email">
+            <img src="./img/redes/envelope-fill.svg" width="32" height="32" alt="Email">
             <p class="font-2-l cor-11">jhonny.a.santana2002@gmail.com</p>
           </div>
           <div class="contato-item-grid">
-            <img src="./img/redes/telephone-fill.svg" alt="Telefone">
+            <img src="./img/redes/telephone-fill.svg" width="32" height="32" alt="Telefone">
             <p class="font-2-l cor-11">(82) 9 9422-1482</p>
           </div>
           <ul class="contato-redes">
             <li>
               <a href="https://www.instagram.com/jhonny.araujo65/">
-                <img src="./img/redes/instagram.svg" alt="Instagram">
+                <img src="./img/redes/instagram.svg" width="32" height="32" alt="Instagram">
               </a>
             </li>
             <li>
               <a href="https://linkedin.com/in/jhonny-araújo">
-                <img src="./img/redes/linkedin.svg" alt="Linkedin">
+                <img src="./img/redes/linkedin.svg" width="32" height="32" alt="Linkedin">
               </a>
             </li>
             <li>
               <a href="https://github.com/JhonnyAraujo">
-                <img src="./img/redes/github.svg" alt="Github">
+                <img src="./img/redes/github.svg" width="32" height="32" alt="Github">
               </a>
             </li>
           </ul>
@@ -186,9 +201,13 @@
       </div>
     </div>
   </section>
+
+  <!-- Footer da página -->
   <footer class="copy font-2-l">
     <p>Jhonny © Alguns direitos reservados.</p>
   </footer>
+
+  <!-- Link do  JavaScript  -->
   <script src="./js/script.js"></script>
 </body>
 

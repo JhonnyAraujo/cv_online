@@ -1,9 +1,11 @@
+/* Fundo da seção de introdução */
 .introducao-bg {
   background: url(/img/fotos/bg-introducao.jpg) no-repeat center center;
   height: 924px;
   background-size: cover;
 }
 
+/* Alinhar o conteúdo no centro */
 .introducao {
   height: 924px;
   align-content: center;
@@ -11,10 +13,12 @@
   color: var(--cor-1);
 }
 
+/* Espaço do paragrafo para o título */
 .introducao p {
   margin-top: 20px;
 }
 
+/* Lista de links para redes sociais */
 .introducao ul {
   margin-top: 20px;
   display: flex;
