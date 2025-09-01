@@ -1,0 +1,88 @@
+.contato-bg {
+  background: var(--cor-11);
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.contato {
+  display: grid;
+  grid-template-columns: 3fr 9fr;
+}
+
+.contato-estrutura {
+  position: relative;
+  margin-right: 60px;
+}
+
+.contato-informacao {
+  background: var(--cor-2);
+  padding: 40px 20px;
+  position: absolute;
+  border-radius: 5px;
+  left: -193.5px;
+  top: 80px;
+  z-index: 2;
+}
+
+.contato-informacao h2 {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.contato-item-grid {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 8px;
+  margin-bottom: 40px;
+}
+
+.contato-informacao ul {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.contato-formulario {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  background: var(--cor-3);
+  padding: 80px 40px 80px 234px;
+  border-radius: 5px;
+}
+
+.contato-formulario label {
+  display: block;
+  margin-bottom: 4px;
+}
+
+.contato-formulario input[type="text"],
+.contato-formulario input[type="email"],
+.contato-formulario textarea {
+  font: 400 1rem/1.5 "Roboto", sans-serif;
+  background: var("--cor-1");
+  border: 1px solid var(--cor-4);
+  padding: 16px;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.contato-formulario textarea {
+  height: 150px;
+}
+
+.contato-formulario input[type="text"]:focus,
+.contato-formulario input[type="email"]:focus,
+.contato-formulario textarea:focus {
+  outline: none;
+  border-color: var(--cor-p4);
+  background: var(--cor-0);
+  box-shadow: 0 0 0 2px rgb(97, 210, 255);
+}
+
+.contato-formulario button {
+  margin-top: 20px;
+  justify-self: start;
+}
