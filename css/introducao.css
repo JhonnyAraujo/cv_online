@@ -1,6 +1,6 @@
 /* Fundo da seção de introdução */
 .introducao-bg {
-  background: url(/img/fotos/bg-introducao.jpg) no-repeat center center;
+  background: url(../img/fotos/bg-introducao.jpg) no-repeat center center;
   height: 924px;
   background-size: cover;
 }
